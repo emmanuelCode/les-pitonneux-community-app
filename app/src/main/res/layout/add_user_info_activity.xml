@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO: arrange this layout for user sign in-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="programming language"
+        android:layout_margin="10dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="git"
+        android:layout_margin="10dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+   <!-- <Spinner
+        android:id="@+id/spinner_programming_language"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />-->
+
+
+</LinearLayout>
